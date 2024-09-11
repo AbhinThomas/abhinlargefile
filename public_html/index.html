@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
     <!-- Bootstrap + Meyawo main styles -->
 	<link rel="stylesheet" href="assets/css/meyawo.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
 
@@ -272,7 +273,7 @@
             <p class="section-subtitle">How can you communicate?</p>
             <h6 class="section-title mb-5">Contact Me</h6>
             <!-- contact form -->
-            <form action="" class="contact-form col-md-10 col-lg-8 m-auto">
+            <form id="submit-form" method="post" action="" class="contact-form col-md-10 col-lg-8 m-auto">
                 <div class="form-row">
                     <div class="form-group col-sm-6">
                         <input type="text" size="50" class="form-control" placeholder="Your Name" required>                 
@@ -314,7 +315,10 @@
 	<script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
 
     <!-- Meyawo js -->
-    <script src="assets/js/meyawo.js"></script>
+    <script src="assets/js/meyawo.js">
+
+    </script>
+    
 
 </body>
 </html>
